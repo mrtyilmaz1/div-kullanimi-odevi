@@ -1,0 +1,37 @@
+
+body{
+    background-color: gray;
+    font-family: Arial, sans-serif;
+}
+
+div{
+    background-color: whitesmoke;
+    border: 0.5px solid black;
+    margin: 5px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+
+h5{
+    padding: 2px;
+}
+
+
+a {
+    color: white;
+    padding: 2px;
+}
+
+img {
+    display: block; /* Bu özellik, resmin bir blok olarak görüntülenmesini sağlar. 
+    Blok öğeler diğer öğelerin yanına yerleştirilmez ve genellikle satırın tam genişliğini kaplar. */
+    margin: 0 auto; /*Bu özellik, resmin yatay olarak merkezde olmasını sağlar.
+     0 margin değeri, üst ve alt kenarlarda hiç boşluk olmadığını belirtirken, auto değeri, 
+     sol ve sağ kenarlarda otomatik olarak eşit bir boşluk oluşturur. */
+    max-width: 100%;
+    border-radius: 5px; /* kenarları yuvarlak yapar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Bu özellik, resme bir kutu gölgesi ekler. 0 0 10px değeri, gölge boyutunu ve bulanıklığını belirtirken, 
+    rgba(0, 0, 0, 0.1) değeri, gölgenin rengini ve opaklığını belirtir.
+    Bu örnekte, siyah bir gölge kullanılır ve opaklık değeri 0.1 olarak ayarlanır. */
+  }
